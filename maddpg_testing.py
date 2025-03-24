@@ -58,7 +58,7 @@ for episode in range(num_episodes):
 
     while not done:
         env.render()           # Display simulation window.
-        time.sleep(0.3)        # Slow down simulation for better visualization.
+        time.sleep(0.1)        # Slow down simulation for better visualization.
 
         actions = [agent.select_action(states[i], epsilon=0.0) for i, agent in enumerate(agents)]
         next_states, rewards, done, info = env.step(tuple(actions))

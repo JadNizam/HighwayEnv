@@ -62,7 +62,7 @@ for i, agent in enumerate(agents):
 os.makedirs("saved_models", exist_ok=True)
 
 # ✅ Training Loop parameters
-num_episodes = 1000  # Increased number of episodes
+num_episodes = 10000  # Increased number of episodes
 eps_decay = 0.999
 epsilon = 1.0
 min_epsilon = 0.05

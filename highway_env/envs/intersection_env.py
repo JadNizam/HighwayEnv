@@ -46,7 +46,7 @@ class IntersectionEnv(AbstractEnv):
                 "longitudinal": True,
                 "lateral": False
             },
-            "duration": 100,
+            "duration": 150,
             "destination": "o1",
             "controlled_vehicles": 1,
             "initial_vehicle_count": 10,
